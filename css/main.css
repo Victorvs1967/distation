@@ -114,37 +114,60 @@ body {
     width: 192px;
     margin-right: 18px;
 }
-.sidebar-user {
-    display: flex;
-    align-items: center;
-    margin-left: 8px;
-    margin-bottom: 8px;
-}
-.sidebar-avatar {
+.menu-sidebar .user-avatar {
     width: 22px;
     height: 22px;
+    margin-left: 10px;
 }
-.sidebar-name {
+.menu-sidebar .user-name {
     font-size: 14px;
     line-height: 22px;
     text-decoration: none;
     color: #262626;
     margin-left: 8px;
 }
+.nav-group {
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
 .nav-link {
     display: flex;
     align-items: center;
     text-decoration: none;
     padding: 4px 8px;
+    border-radius: 4px;
+}
+.nav-link.active {
+    color: #262626;
+    background: #FFFFFF;
 }
 .nav-link:hover {
-    background: #ffffff;
+    background: #FFFFFF;
 }
 .nav-text {
     font-size: 14px;
     line-height: 22px;
     color: #595959;
     margin-left: 8px;
+}
+.nav-link.active .nav-text {
+    color: #262626;
+}
+.nav-group-title {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #262626;
+    margin-left: 10px;
+}
+.down-icon {
+    fill: #BFBFBF;
+}
+.nav-text-more {
+    font-size: 14px;
+    line-height: 22px;
+    color: #1890FF;
+    margin-left: 12px;
 }
 .main-feed {
     width: 588px;
