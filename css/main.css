@@ -112,17 +112,34 @@ body {
 }
 .menu-sidebar {
     width: 192px;
+    margin-right: 18px;
 }
 .sidebar-user {
     display: flex;
     align-items: center;
-    margin-bottom: 12px;
+    margin-left: 8px;
+    margin-bottom: 8px;
 }
 .sidebar-name {
     font-size: 14px;
     line-height: 22px;
     text-decoration: none;
     color: #262626;
+    margin-left: 8px;
+}
+.nav-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 4px 8px;
+}
+.nav-link:hover {
+    background: #ffffff;
+}
+.nav-text {
+    font-size: 14px;
+    line-height: 22px;
+    color: #595959;
     margin-left: 8px;
 }
 .main-feed {
