@@ -88,7 +88,13 @@ body {
     display: flex;
     align-items: center;
 }
-.nav-link:not(:last-child) {
+.nav-icon {
+    fill: #002766;
+}
+.nav-icon:hover {
+    fill: #ffffff;
+}
+.icon-link:not(:last-child) {
     margin-left: 12px;
 }
 .line {
